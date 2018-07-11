@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import './App.css';
 
 class App extends Component {
+  
+  state = {
+    values: 'Fill in form and click Submit to see values'
+  }
+
   render() {
     return (
       <div className="App">
@@ -10,6 +15,7 @@ class App extends Component {
       </div>
     );
   }
+  
 }
 
 export default App;
